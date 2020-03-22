@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="">
+            <img class="cal_thump" src="images/cal.png">
+            <h1 class="cal_head">Calculator App</h1>
+        </div>
+    </nav>
+    <div class="container calculator">
+        <div class="row">
+            <div class="col-md-5">
+                <!-- Main div of our calculator -->
+                <div class="container container-bg border border-dark">
+                    <h2 class="text-center">CALCULATOR</h2>
+                <div class="row myMargin box">
+                    <input type="number"  class="form-control box_input border border-secondary" >
+                    <label class="box_label" for="input1">Input #1</label>
+                </div>
+                <div class="row myMargin box">
+                    <input type="number" class="form-control box_input border border-secondary" >
+                    <label class="box_label" for="input2">Input #2</label>
+                </div>
+                <div class="row myMargin box">
+                    <input type="number" class="form-control box_input border border-dark" >
+                    <label class="box_label" for="result">Result</label>
+                </div>
+                <div class="row myMargin">
+                    <div class="col-md-3 bg-secondary text-center myMargin2">7</div>
+                    <div class="col-md-3 bg-secondary text-center myMargin2">8</div>
+                    <div class="col-md-3 bg-secondary text-center myMargin2">9</div>
+                    <button class="col-md-3 bg-dark text-center myMargin2">+</button>
+                </div>
+                <div class="row myMargin">
+                    <div class="col-md-3 bg-secondary text-center myMargin2">4</div>
+                    <div class="col-md-3 bg-secondary text-center myMargin2">5</div>
+                    <div class="col-md-3 bg-secondary text-center myMargin2">6</div>
+                    <button class="col-md-3 bg-dark text-center myMargin2" >-</button>
+                </div>
+                <div class="row myMargin">
+                    <div class="col-md-3 bg-secondary text-center myMargin2" >1</div>
+                    <div class="col-md-3 bg-secondary text-center myMargin2">2</div>
+                    <div class="col-md-3 bg-secondary text-center myMargin2">3</div>
+                    <button class="col-md-3 bg-dark text-center myMargin2">X</button>
+                </div>
+                <div class="row myMargin">
+                    <button class="col-md-3 bg-dark text-center myMargin2"><-</button>
+                    <div class="col-md-3 bg-secondary text-center myMargin2">0</div>
+                    <button class="col-md-3 bg-dark text-center myMargin2">Ans</button>
+                    <button class="col-md-3 bg-dark text-center myMargin2">%</button>
+                </div>
+            </div>
+                 <!-- End of main div -->
+                 
+            </div>
+        </div>
+    </div>
+ <!-- Footer    -->
+ 
+    <div class="footer">
+        <p class="footer_text">Copyright © ICTAK</p>
+    </div>
+<!-- Footer -->
+</body>
+</html>
